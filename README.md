@@ -18,7 +18,7 @@ Five-point finite differences on an `Nx`-by-`Ny` grid over a rectangle `[ax,bx] 
 | `Poisson_Jacobi.m` | u_xx + u_yy = f(x,y) | Jacobi iteration |
 | `Poisson_Gauss_Seidel.m` | u_xx + u_yy = f(x,y) | Gauss–Seidel iteration |
 | `Poisson_Relaxation.m` | u_xx + u_yy = f(x,y) | SOR |
-| `Laplace.m` | u_xx + u_yy = −2(x² + y²) on [0,3]², u = 0 on the boundary, h = 1 | Worked example: Jacobi vs Gauss–Seidel |
+| `Poisson_Example.m` | u_xx + u_yy = −2(x² + y²) on [0,3]², u = 0 on the boundary, h = 1 | Worked example: Jacobi vs Gauss–Seidel |
 
 - **SOR scripts:** leave `omega = 0` and the code computes the optimal relaxation factor for your grid from Young's formula, ω_opt = 2 / (1 + √(1 − ρ_J²)), where ρ_J is the spectral radius of the discrete Jacobi iteration.
 - **Default Laplace example:** unit square, u = 0 on the left, right and bottom edges and u = sin(πx) on the top edge. The exact solution sin(πx) sinh(πy) / sinh(π) is available for checking.
