@@ -1,3 +1,13 @@
+%% Crank-Nicolson method for u_t = u_xx
+% BCs : u(0,t) = u(2,t) = 0
+% IC  : u(x,0) = sin(pi*x/2)
+% Given: L = 2, n = 4 intervals (h = 0.5), k = 0.05, r = k/h^2 = 0.2, up to T = 0.1
+% Scheme (implicit; second order in space and time; unconditionally stable):
+%   (1+r)*u(i,j+1) - (r/2)*( u(i-1,j+1) + u(i+1,j+1) )
+%       = (1-r)*u(i,j) + (r/2)*( u(i-1,j) + u(i+1,j) )
+% i.e. A*U(j+1) = B*U(j) for the interior values, solved at every time step.
+% Output: a table of u(x,T) and a plot.
+% Exact solution for checking: u(x,t) = exp(-pi^2*t/4)*sin(pi*x/2)
 clc;
 clear;
 close all;
