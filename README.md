@@ -1,6 +1,6 @@
 # Numerical PDE Solvers (MATLAB)
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23506069.svg)](https://doi.org/10.5281/zenodo.23506069)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23506069.svg)](https://doi.org/10.5281/zenodo.23506069) [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=izzeddinabboushi-PhyMH/numerical-pde-solvers-matlab)
 
 Finite-difference solvers for the three classes of second-order partial differential equations: **elliptic** (Laplace and Poisson), **parabolic** (heat equation) and **hyperbolic** (wave equation). Every script is self-contained and documented in its header. The Laplace and Poisson solvers are driven by a single `USER INPUT` block, so a new problem means editing that block and pressing **Run**. No toolboxes are required.
 
@@ -61,6 +61,7 @@ The script also runs a CFL (stability) experiment and a grid-refinement study.
 
 1. Open a script in MATLAB and press **Run**, or type its name at the command prompt.
 2. To solve your own problem, edit only the `USER INPUT` block (where present). The domain, grid size, boundary functions and source term are entered as ordinary formulas.
+3. To run the scripts without installing MATLAB, use the **Open in MATLAB Online** button at the top of this page. It needs a MathWorks account.
 
 ## Author
 
