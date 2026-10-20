@@ -1,6 +1,6 @@
 # Numerical PDE Solvers (MATLAB)
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23506069.svg)](https://doi.org/10.5281/zenodo.23506069) [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=izzeddinabboushi-PhyMH/numerical-pde-solvers-matlab)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23506069.svg)](https://doi.org/10.5281/zenodo.23506069) [![View on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://www.mathworks.com/matlabcentral/fileexchange/185025-numerical-pde-solvers-matlab) [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=izzeddinabboushi-PhyMH/numerical-pde-solvers-matlab)
 
 Finite-difference solvers for the three classes of second-order partial differential equations: **elliptic** (Laplace and Poisson), **parabolic** (heat equation) and **hyperbolic** (wave equation). Every script is self-contained and documented in its header. The Laplace and Poisson solvers are driven by a single `USER INPUT` block, so a new problem means editing that block and pressing **Run**. No toolboxes are required.
 
