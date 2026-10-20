@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+type: software
+title: "Numerical PDE Solvers (MATLAB)"
+abstract: >-
+  Finite-difference MATLAB solvers for elliptic (Laplace and Poisson:
+  Jacobi, Gauss-Seidel, SOR with optimal relaxation factor), parabolic
+  (heat equation: Bender-Schmidt, Crank-Nicolson) and hyperbolic (wave
+  equation: explicit CTCS, implicit theta-scheme, Lax-Wendroff, method of
+  characteristics) partial differential equations, with built-in examples
+  checked against exact solutions.
+authors:
+  - family-names: Abboushi
+    given-names: Izzeddin
+    orcid: "https://orcid.org/0009-0008-7841-7566"
+    affiliation: "An-Najah National University"
+repository-code: "https://github.com/izzeddinabboushi-PhyMH/numerical-pde-solvers-matlab"
+license: MIT
+version: 1.0.0
+keywords:
+  - numerical PDEs
+  - finite differences
+  - Laplace equation
+  - Poisson equation
+  - heat equation
+  - wave equation
+  - Jacobi iteration
+  - Gauss-Seidel
+  - successive over-relaxation
+  - Crank-Nicolson
+  - Lax-Wendroff
+  - MATLAB
