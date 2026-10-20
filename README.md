@@ -1,5 +1,7 @@
 # Numerical PDE Solvers (MATLAB)
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23506069.svg)](https://doi.org/10.5281/zenodo.23506069)
+
 Finite-difference solvers for the three classes of second-order partial differential equations: **elliptic** (Laplace and Poisson), **parabolic** (heat equation) and **hyperbolic** (wave equation). Every script is self-contained and documented in its header. The Laplace and Poisson solvers are driven by a single `USER INPUT` block, so a new problem means editing that block and pressing **Run**. No toolboxes are required.
 
 ## Contents
@@ -67,7 +69,11 @@ ORCID: [0009-0008-7841-7566](https://orcid.org/0009-0008-7841-7566)
 
 ## Citation
 
-If you use these solvers, please cite the repository. GitHub's **Cite this repository** button reads `CITATION.cff`.
+If you use these solvers, please cite:
+
+> Abboushi, I. (2026). *Numerical PDE Solvers (MATLAB)* [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.23506069
+
+This DOI always resolves to the latest release. Each release also has its own DOI: v1.0.0 is [10.5281/zenodo.23506070](https://doi.org/10.5281/zenodo.23506070). GitHub's **Cite this repository** button gives the reference in APA and BibTeX formats.
 
 ## License
 
